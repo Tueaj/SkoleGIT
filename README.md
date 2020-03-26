@@ -1,2 +1,2 @@
-# tue.alexander.j-gmail.com
+# STUFF TO SKOLE, YES
 Skole stuff
