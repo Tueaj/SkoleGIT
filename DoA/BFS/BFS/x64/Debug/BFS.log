@@ -1,0 +1,3 @@
+﻿  BFS.cpp
+E:\GitRepos\SkoleGIT\DoA\BFS\BFS\BFS.cpp(74,43): warning C4244: 'argument': conversion from 'size_t' to 'double', possible loss of data
+  BFS.vcxproj -> E:\GitRepos\SkoleGIT\DoA\BFS\x64\Debug\BFS.exe

@@ -1,0 +1,11 @@
+// Example graph for demonstrating Dijkstra's algorithm. 
+A: B'3, H'12
+B: C'1, G'4
+C: D'2, F'10
+D: E'1, F'4
+E: F'4
+F: H'1
+G: C'2, F'3
+H: A'3, D'2
+
+
