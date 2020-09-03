@@ -1,0 +1,7 @@
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\GUI\Opgave1\Opgave1_4\bin\Debug\Opgave1_4.exe.config
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\GUI\Opgave1\Opgave1_4\bin\Debug\Opgave1_4.exe
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\GUI\Opgave1\Opgave1_4\bin\Debug\Opgave1_4.pdb
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\GUI\Opgave1\Opgave1_4\obj\Debug\Opgave1_4.csprojAssemblyReference.cache
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\GUI\Opgave1\Opgave1_4\obj\Debug\Opgave1_4.csproj.CoreCompileInputs.cache
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\GUI\Opgave1\Opgave1_4\obj\Debug\Opgave1_4.exe
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\GUI\Opgave1\Opgave1_4\obj\Debug\Opgave1_4.pdb

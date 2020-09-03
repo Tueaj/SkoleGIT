@@ -1,0 +1,3 @@
+C:\Users\alex8\OneDrive - Aarhus universitet\Mappe\Opgave4_semester\SWD\Lektion00\Interfaces-1\DoStuff.App\obj\Debug\netcoreapp3.1\DoStuff.csproj.CoreCompileInputs.cache
+C:\Users\alex8\OneDrive - Aarhus universitet\Mappe\Opgave4_semester\SWD\Lektion00\Interfaces-1\DoStuff.App\obj\Debug\netcoreapp3.1\DoStuff.AssemblyInfoInputs.cache
+C:\Users\alex8\OneDrive - Aarhus universitet\Mappe\Opgave4_semester\SWD\Lektion00\Interfaces-1\DoStuff.App\obj\Debug\netcoreapp3.1\DoStuff.AssemblyInfo.cs

@@ -1,0 +1,93 @@
+using NUnit.Framework;
+
+namespace Calculator.Test.Unit
+{
+    public class Tests
+    {
+        private Calculator UUT1;
+
+        [SetUp]
+        public void Setup()
+        {
+            UUT1 = new Calculator();
+        }
+        //ADD TEST
+        [Test]
+        public void Addnulnul()
+        {
+            double res = UUT1.Add(0, 0);
+            Assert.That(res, Is.EqualTo(0));            
+        }
+        [Test]
+        public void AddM5n7()
+        {
+            double res = UUT1.Add(-5, 7);
+            Assert.That(res, Is.EqualTo(2));
+        }
+        [Test]
+        public void AddDecimal()
+        {
+            double res = UUT1.Add(-0.5, 10);
+            Assert.That(res, Is.EqualTo(9.5));
+        }
+        //SUBSTRACT TEST
+        [Test]
+        public void Subnulnul()
+        {
+            double res = UUT1.Substract(0, 0);
+            Assert.That(res, Is.EqualTo(0));
+        }
+        [Test]
+        public void SubM5n7()
+        {
+            double res = UUT1.Substract(-5, 7);
+            Assert.That(res, Is.EqualTo(-12));
+        }
+        [Test]
+        public void SubDecimal()
+        {
+            double res = UUT1.Substract(-0.5, 10);
+            Assert.That(res, Is.EqualTo(-10.5));
+        }
+        //MULTIPLY TEST
+        [Test]
+        public void Mulnulnul()
+        {
+            double res = UUT1.Multiply(0, 0);
+            Assert.That(res, Is.EqualTo(0));
+        }
+        [Test]
+        public void MulM5n7()
+        {
+            double res = UUT1.Multiply(-5, 7);
+            Assert.That(res, Is.EqualTo(-35));
+        }
+        [Test]
+        public void MulDecimal()
+        {
+            double res = UUT1.Multiply(-0.5, 10);
+            Assert.That(res, Is.EqualTo(-5));
+        }
+
+        //POWER TEST
+        [Test]
+        public void Pownulnul()
+        {
+            double res = UUT1.Power(0, 0);
+            Assert.That(res, Is.EqualTo(0));
+        }
+        [Test]
+        public void PowM5n7()
+        {
+            double res = UUT1.Power(-5, 7);
+            Assert.That(res, Is.EqualTo(-78.125));
+        }
+        [Test]
+        public void PowDecimal()
+        {
+            double res = UUT1.Power(-0.5, 10);
+            Assert.That(res, Is.EqualTo(-0.0009765625));
+        }
+
+    }
+}

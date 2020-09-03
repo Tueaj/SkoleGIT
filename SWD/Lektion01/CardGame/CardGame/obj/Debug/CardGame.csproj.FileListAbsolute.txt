@@ -1,0 +1,7 @@
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\SWD\Lektion01\CardGame\CardGame\obj\Debug\CardGame.csprojAssemblyReference.cache
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\SWD\Lektion01\CardGame\CardGame\obj\Debug\CardGame.csproj.CoreCompileInputs.cache
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\SWD\Lektion01\CardGame\CardGame\bin\Debug\CardGame.exe.config
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\SWD\Lektion01\CardGame\CardGame\bin\Debug\CardGame.exe
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\SWD\Lektion01\CardGame\CardGame\bin\Debug\CardGame.pdb
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\SWD\Lektion01\CardGame\CardGame\obj\Debug\CardGame.exe
+C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\SWD\Lektion01\CardGame\CardGame\obj\Debug\CardGame.pdb
