@@ -1,3 +1,4 @@
+using System;
 using NUnit.Framework;
 
 namespace Calculator.Test.Unit
@@ -87,6 +88,19 @@ namespace Calculator.Test.Unit
         {
             double res = UUT1.Power(2.5, 2);
             Assert.That(res, Is.EqualTo(6.25));
+        }
+
+        [Test]
+        public void AccuStart()
+        {
+            double res = UUT1.Accumulator;
+            Assert.AreEqual(res,Is.EqualTo(0));
+        }
+
+        public void AccuAfterAdd()
+        {
+            double res = UUT1.Add(-5, 7);
+            Assert.That(res, Is.EqualTo(UUT1.Accumulator));
         }
 
     }

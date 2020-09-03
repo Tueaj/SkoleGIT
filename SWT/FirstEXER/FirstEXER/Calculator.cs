@@ -10,10 +10,9 @@ namespace Calculator
     {
         public Calculator()
         {
-            Accumulator = 0;
         }
 
-        private double Accumulator { get; set; }
+        public double Accumulator { get; set; }
 
         public double Add(double a, double b)
         {
