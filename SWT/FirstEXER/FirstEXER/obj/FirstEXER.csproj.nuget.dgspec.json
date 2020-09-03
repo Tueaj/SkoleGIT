@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj": {}
+    "C:\\Users\\Tue\\Desktop\\ny git\\SkoleGit\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj": {
+    "C:\\Users\\Tue\\Desktop\\ny git\\SkoleGit\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
+        "projectUniqueName": "C:\\Users\\Tue\\Desktop\\ny git\\SkoleGit\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
         "projectName": "FirstEXER",
-        "projectPath": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
+        "projectPath": "C:\\Users\\Tue\\Desktop\\ny git\\SkoleGit\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
         "packagesPath": "C:\\Users\\Tue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\obj\\",
+        "outputPath": "C:\\Users\\Tue\\Desktop\\ny git\\SkoleGit\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tue\\AppData\\Roaming\\NuGet\\NuGet.Config",

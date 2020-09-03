@@ -13,3 +13,18 @@ C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\SWT\FirstEXER\
 C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\SWT\FirstEXER\FirstEXER\obj\Debug\netcoreapp3.1\FirstEXER.dll
 C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\SWT\FirstEXER\FirstEXER\obj\Debug\netcoreapp3.1\FirstEXER.pdb
 C:\Users\Tue\OneDrive - Aarhus Universitet\Mappe\Opgave4_semester\SWT\FirstEXER\FirstEXER\obj\Debug\netcoreapp3.1\FirstEXER.genruntimeconfig.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\bin\Debug\netcoreapp3.1\FirstEXER.exe
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\bin\Debug\netcoreapp3.1\FirstEXER.deps.json
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\bin\Debug\netcoreapp3.1\FirstEXER.runtimeconfig.json
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\bin\Debug\netcoreapp3.1\FirstEXER.runtimeconfig.dev.json
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\bin\Debug\netcoreapp3.1\FirstEXER.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\bin\Debug\netcoreapp3.1\FirstEXER.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\obj\Debug\netcoreapp3.1\FirstEXER.csprojAssemblyReference.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\obj\Debug\netcoreapp3.1\FirstEXER.AssemblyInfoInputs.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\obj\Debug\netcoreapp3.1\FirstEXER.AssemblyInfo.cs
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\obj\Debug\netcoreapp3.1\FirstEXER.csproj.CoreCompileInputs.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\obj\Debug\netcoreapp3.1\FirstEXER.csproj.CopyComplete
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\obj\Debug\netcoreapp3.1\FirstEXER.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\obj\Debug\netcoreapp3.1\FirstEXER.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWT\FirstEXER\FirstEXER\obj\Debug\netcoreapp3.1\FirstEXER.genruntimeconfig.cache

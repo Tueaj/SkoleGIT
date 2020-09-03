@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f9J9F4lxpL90qriKk1SJwacPgv3lOi8LC83VNsV5MA5qatUzBg0YT9h/qZaknczhJz/CQu8EPa3nvcqp9nxixg==",
+  "dgSpecHash": "kZ44lGAD9/0dbIYEOE/wnICPsAL8jcVRe8Lb/a2EE+4DpB0qcA8WnKIXxdbgavWiUMPQ5iSIJ4V0L97WumY2YQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
+  "projectFilePath": "C:\\Users\\Tue\\Desktop\\ny git\\SkoleGit\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tue\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Tue\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",

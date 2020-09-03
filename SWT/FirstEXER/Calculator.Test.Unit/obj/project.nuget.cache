@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FtbxVoofdsw9nWC15Xb7G7UV8ffOZtdF1wFIkEP6KFUKua6eXeNaNstaR+kDtQNY9jJvVYm5rbs/bT6Qcvn7pw==",
+  "dgSpecHash": "jBOdQNFm8WkxKq2c3nLggEbOlLkdCVkKUgGsZBq09KTLYkKMyJ0ZXMuphpb8Oobi25p7tyVN/vXAkPOk+X+Wsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\Calculator.Test.Unit\\Calculator.Test.Unit.csproj",
+  "projectFilePath": "C:\\Users\\Tue\\Desktop\\ny git\\SkoleGit\\SkoleGIT\\SWT\\FirstEXER\\Calculator.Test.Unit\\Calculator.Test.Unit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tue\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\Tue\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
