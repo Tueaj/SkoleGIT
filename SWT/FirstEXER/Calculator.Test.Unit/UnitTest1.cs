@@ -103,5 +103,32 @@ namespace Calculator.Test.Unit
             Assert.That(res, Is.EqualTo(UUT1.Accumulator));
         }
 
+        [Test]
+        public void Divide_TwoNumbers_CorrectResult()
+        {
+            double res = UUT1.Divide(10, 2);
+            Assert.That(res, Is.EqualTo(5));
+        }
+
+        [Test]
+        public void Divide_TwoHalfNumbers_CorrectResult()
+        {
+            double res = UUT1.Divide(10, 2.5);
+            Assert.That(res, Is.EqualTo(4));
+        }
+
+        [Test]
+        public void Divide_NegNumbers_CorrectResult()
+        {
+            double res = UUT1.Divide(-10, 4);
+            Assert.That(res, Is.EqualTo(-2.5));
+        }
+
+        [Test]
+        public void Divide_WithZero_Error()
+        {
+            double res = UUT1.Divide(10, 0);
+            Assert.That(res, Is.EqualTo(0));
+        }
     }
 }
