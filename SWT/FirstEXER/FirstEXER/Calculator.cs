@@ -30,12 +30,11 @@ namespace Calculator
 
         public double Divide(double a, double b)
         {
-            double res;
             if (b == 0)
                 return 0;
             else
-                res = a / b;
-            return res;
+                Accumulator = a / b;
+            return Accumulator;
         }
     }
 }
