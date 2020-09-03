@@ -45,7 +45,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -226,19 +226,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tue\\.nuget\\packages\\": {}
+    "C:\\Users\\jacob\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
+      "projectUniqueName": "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
       "projectName": "FirstEXER",
-      "projectPath": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
-      "packagesPath": "C:\\Users\\Tue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\obj\\",
+      "projectPath": "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
+      "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Tue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -282,7 +286,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

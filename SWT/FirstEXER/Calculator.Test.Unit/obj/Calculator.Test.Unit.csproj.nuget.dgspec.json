@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\Calculator.Test.Unit\\Calculator.Test.Unit.csproj": {}
+    "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\Calculator.Test.Unit\\Calculator.Test.Unit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\Calculator.Test.Unit\\Calculator.Test.Unit.csproj": {
+    "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\Calculator.Test.Unit\\Calculator.Test.Unit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\Calculator.Test.Unit\\Calculator.Test.Unit.csproj",
+        "projectUniqueName": "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\Calculator.Test.Unit\\Calculator.Test.Unit.csproj",
         "projectName": "Calculator.Test.Unit",
-        "projectPath": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\Calculator.Test.Unit\\Calculator.Test.Unit.csproj",
-        "packagesPath": "C:\\Users\\Tue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\Calculator.Test.Unit\\obj\\",
+        "projectPath": "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\Calculator.Test.Unit\\Calculator.Test.Unit.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\Calculator.Test.Unit\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Tue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj": {
-                "projectPath": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj"
+              "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj": {
+                "projectPath": "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj"
               }
             }
           }
@@ -70,21 +73,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj": {
+    "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
+        "projectUniqueName": "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
         "projectName": "FirstEXER",
-        "projectPath": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
-        "packagesPath": "C:\\Users\\Tue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tue\\OneDrive - Aarhus Universitet\\Mappe\\Opgave4_semester\\SWT\\FirstEXER\\FirstEXER\\obj\\",
+        "projectPath": "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\FirstEXER.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\OneDrive\\Dokumenter\\GitHub\\SkoleGIT\\SWT\\FirstEXER\\FirstEXER\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Tue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
