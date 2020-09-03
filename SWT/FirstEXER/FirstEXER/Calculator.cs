@@ -10,6 +10,7 @@ namespace Calculator
     {
         public Calculator()
         {
+            Accumulator = 0.0d;
         }
 
         public double Accumulator { get; set; }

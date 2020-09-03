@@ -3,3 +3,8 @@
 ################################################################################
 
 /SWT/FirstEXER/.vs/FirstEXER/v16/Server/sqlite3
+/SWT/FirstEXER/FirstEXER/obj
+/SWT/FirstEXER/FirstEXER/bin/Debug/netcoreapp3.1
+/SWT/FirstEXER/Calculator.Test.Unit/obj/Debug/netcoreapp3.1
+/SWT/FirstEXER/Calculator.Test.Unit/obj
+/SWT/FirstEXER/Calculator.Test.Unit/bin/Debug/netcoreapp3.1

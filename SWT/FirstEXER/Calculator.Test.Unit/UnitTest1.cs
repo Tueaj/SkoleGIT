@@ -94,7 +94,7 @@ namespace Calculator.Test.Unit
         public void AccuStart()
         {
             double res = UUT1.Accumulator;
-            Assert.AreEqual(res,Is.EqualTo(0));
+            Assert.That(res,Is.EqualTo(0.0d));
         }
 
         public void AccuAfterAdd()
