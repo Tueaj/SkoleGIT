@@ -74,19 +74,19 @@ namespace Calculator.Test.Unit
         public void Pownulnul()
         {
             double res = UUT1.Power(0, 0);
-            Assert.That(res, Is.EqualTo(0));
+            Assert.That(res, Is.EqualTo(1));
         }
         [Test]
         public void PowM5n7()
         {
-            double res = UUT1.Power(-5, 7);
-            Assert.That(res, Is.EqualTo(-78.125));
+            double res = UUT1.Power(-5, 2);
+            Assert.That(res, Is.EqualTo(25));
         }
         [Test]
         public void PowDecimal()
         {
-            double res = UUT1.Power(-0.5, 10);
-            Assert.That(res, Is.EqualTo(-0.0009765625));
+            double res = UUT1.Power(2.5, 2);
+            Assert.That(res, Is.EqualTo(6.25));
         }
 
     }
