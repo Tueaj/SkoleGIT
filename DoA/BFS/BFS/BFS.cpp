@@ -32,6 +32,58 @@ typedef priority_queue<PQNode*, vector<PQNode*>, CompareNodes> PQueue;
 using namespace Graphs;
 using namespace std;
 
+int aStar(Graph g, Node* startNode, Node* endNode)
+{
+
+	reset(g); // Set default cost to infinity	startNode->cost = 0;
+
+	PQueue frontier;
+	PQNode* startPQNode = new PQNode(startNode, 0);
+	int nNodesVisited = 0;
+
+
+	// Initialize
+	reset(g);
+	startPQNode->node->cost = 0;
+	frontier.push(startPQNode); //Node to start search  from "The start node"
+
+
+	// Iterate
+	while (frontier.size() > 0)
+	{
+		PQNode* current = frontier.top();//Node to search from 
+		frontier.pop(); //remove from frontier
+
+		++nNodesVisited;
+		if (current->node == endNode)
+		{
+			while (frontier.size() > 0)
+			{
+				current = frontier.top();//Node to search from 
+				frontier.pop(); //remove from frontier
+				delete current;
+			}
+			return nNodesVisited;
+		}
+
+		for (EdgeListIter edge = current->node->neighbors.begin(); edge != current->node->neighbors.end(); ++edge)
+		{
+			if (!*edge) continue;//Current node neighbors empty
+			Node* next = (*edge)->to; //Next neighbor node
+			if ((next->cost > current->node->cost + (*edge)->weight) || (next != nullptr && next->prev == nullptr)) //if next neighbor exits and is not yet visited then add to frontier and mark visted
+			{
+				next->prev = current->node;
+				next->cost = current->node->cost + (*edge)->weight;
+				PQNode* nextPQ = new PQNode(next, next->cost);
+				frontier.push(nextPQ);
+			}
+		}
+		delete current;
+	}
+
+	return nNodesVisited;
+}
+
 int dijkstraPQ(Graph g, Node* startNode, Node* endNode)
 {
 	PQueue frontier;
