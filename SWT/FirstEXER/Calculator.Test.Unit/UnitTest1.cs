@@ -20,10 +20,10 @@ namespace Calculator.Test.Unit
             Assert.That(res, Is.EqualTo(0));            
         }
         [Test]
-        public void AddM5n7()
+        public void AddM4n7()
         {
-            double res = UUT1.Add(-5, 7);
-            Assert.That(res, Is.EqualTo(2));
+            double res = UUT1.Add(-4, 7);
+            Assert.That(res, Is.EqualTo(3));
         }
         [Test]
         public void AddDecimal()
