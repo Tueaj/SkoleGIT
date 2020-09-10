@@ -12,6 +12,7 @@ namespace Calculator.Test.Unit
         {
             UUT1 = new Calculator();
         }
+
         //ADD TEST
         [TestCase(0,0,0)]
         [TestCase(-5, 7, 2)]
@@ -21,6 +22,7 @@ namespace Calculator.Test.Unit
             double res = UUT1.Add(a, b);
             Assert.That(res, Is.EqualTo(c));            
         }
+
         //SUBSTRACT TEST
         [TestCase(0, 0, 0)]
         [TestCase(-5, 7, -12)]
@@ -50,6 +52,7 @@ namespace Calculator.Test.Unit
             double res = UUT1.Power(0, 0);
             Assert.That(res, Is.EqualTo(1));
         }
+
         //Divide test
         [TestCase(10, 2, 5)]
         [TestCase(10, 2.5, 4)]
@@ -60,6 +63,7 @@ namespace Calculator.Test.Unit
             double res = UUT1.Divide(a, b);
             Assert.That(res, Is.EqualTo(c));
         }
+
         //Accu test
         [Test]
         public void AccuStart()
