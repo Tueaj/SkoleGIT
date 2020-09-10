@@ -72,10 +72,27 @@ namespace Calculator.Test.Unit
             Assert.That(res, Is.EqualTo(0.0d));
         }
 
+        [Test]
         public void AccuNotEmptyAfterAddCorrect()
         {
             double res = UUT1.Add(-5, 7);
             Assert.That(res, Is.EqualTo(UUT1.Accumulator));
+        }
+
+        //Clear test
+        [Test]
+        public void clearEmptyAccu()
+        {
+            UUT1.Clear();
+            Assert.That(UUT1.Accumulator, Is.EqualTo(0));
+        }
+
+        [Test]
+        public void ClearAccuAfterAdd()
+        {
+            UUT1.Add(-5, 7);
+            UUT1.Clear();
+            Assert.That(UUT1.Accumulator, Is.EqualTo(0));
         }
     }
 
