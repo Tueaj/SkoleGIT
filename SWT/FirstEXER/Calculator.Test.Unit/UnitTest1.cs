@@ -22,6 +22,15 @@ namespace Calculator.Test.Unit
             double res = UUT1.Add(a, b);
             Assert.That(res, Is.EqualTo(c));            
         }
+        //ADD OVERLOAD TEST
+        [TestCase(0, 0)]
+        [TestCase(-5, -5)]
+        [TestCase(-0.5, -0.5)]
+        public void AddOneNumberAnwserCorrect(double b, double c)
+        {
+            double res = UUT1.Add(b);
+            Assert.That(res, Is.EqualTo(c));
+        }
 
         //SUBSTRACT TEST
         [TestCase(0, 0, 0)]
@@ -32,6 +41,15 @@ namespace Calculator.Test.Unit
             double res = UUT1.Substract(a, b);
             Assert.That(res, Is.EqualTo(c));
         }
+        //SUBSTRACT OVERLOAD TEST
+        [TestCase(0,  0)]
+        [TestCase(5,  -5)]
+        [TestCase(-0.5,0.5)]
+        public void SubtractOneNumberAnwserCorrect(double b, double c)
+        {
+            double res = UUT1.Substract(b);
+            Assert.That(res, Is.EqualTo(c));
+        }
 
         //MULTIPLY TEST
         [TestCase(0, 0, 0)]
@@ -39,21 +57,41 @@ namespace Calculator.Test.Unit
         [TestCase(-0.5, 10, -5)]
         public void MultiplyTwoNumbersAnwserCorrect(double a, double b, double c)
         {
-            double res = UUT1.Multiply(0, 0);
-            Assert.That(res, Is.EqualTo(0));
+            double res = UUT1.Multiply(a, b);
+            Assert.That(res, Is.EqualTo(c));
+        }
+        //MULTIPLY OVERLOAD TEST
+        [TestCase(0, 0)]
+        [TestCase(-5, -25)]
+        [TestCase(-0.5, -2.5)]
+        public void MultiplyOneNumberWithAccumulatorAnwserCorrect(double b, double c)
+        {
+            UUT1.Accumulator = 5;
+            double res = UUT1.Multiply(b);
+            Assert.That(res, Is.EqualTo(c));
         }
 
         //POWER TEST
         [TestCase(0, 0, 1)]
-        [TestCase(-5, 7, 25)]
+        [TestCase(-5, 7, -78125)]
         [TestCase(2.5, 2, 6.25)]
-        public void PowerTwoNumbersAnwserCorrect(double a, double b, double c)
+        public void PowerTwoNumbersAnwserCorrect(double x, double exp, double c)
         {
-            double res = UUT1.Power(0, 0);
-            Assert.That(res, Is.EqualTo(1));
+            double res = UUT1.Power(x, exp);
+            Assert.That(res, Is.EqualTo(c));
+        }
+        //POWER OVERLOAD TEST
+        [TestCase(0, 0)]
+        [TestCase(-5, -3125)]
+        [TestCase(2.5, 97.65625)]
+        public void PowerOneNumberWithAccumulatorAnwserCorrect(double b, double c)
+        {
+            UUT1.Accumulator = 5;
+            double res = UUT1.Power(b);
+            Assert.That(res, Is.EqualTo(c));
         }
 
-        //Divide test
+        //DIVIDE TEST
         [TestCase(10, 2, 5)]
         [TestCase(10, 2.5, 4)]
         [TestCase(-10, 4, -2.5)]
@@ -61,6 +99,17 @@ namespace Calculator.Test.Unit
         public void DivideTwoNumbersAnwserCorrect(double a, double b, double c)
         {
             double res = UUT1.Divide(a, b);
+            Assert.That(res, Is.EqualTo(c));
+        }
+        //DIVIDE OVERLOAD TEST
+        [TestCase(10, 0.5)]
+        [TestCase(5,  1)]
+        [TestCase(-10,  -0.5)]
+        [TestCase(0,  0)]
+        public void DivideAccumulatorWithOneNumberAnwserCorrect(double b, double c)
+        {
+            UUT1.Accumulator = 5;
+            double res = UUT1.Divide(b);
             Assert.That(res, Is.EqualTo(c));
         }
 

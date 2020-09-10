@@ -20,9 +20,20 @@ namespace Calculator
             Accumulator = a + b;
             return Accumulator;
         }
+        public double Add(double b)
+        {
+            Accumulator += b;
+            return Accumulator;
+        }
+
         public double Substract(double a, double b)
         {
             Accumulator = a - b;
+            return Accumulator;
+        }
+        public double Substract(double b)
+        {
+            Accumulator -= b;
             return Accumulator;
         }
 
@@ -31,9 +42,20 @@ namespace Calculator
             Accumulator = a * b;
             return Accumulator;
         }
+        public double Multiply(double b)
+        {
+            Accumulator *= b;
+            return Accumulator;
+        }
+
         public double Power(double x, double exp)
         {
             Accumulator =  Math.Pow(x, exp);
+            return Accumulator;
+        }
+        public double Power(double x)
+        {
+            Accumulator = Math.Pow(x, Accumulator);
             return Accumulator;
         }
 
@@ -46,6 +68,19 @@ namespace Calculator
             else
             {
                 Accumulator = a / b;
+            }
+            return Accumulator;
+        }
+
+        public double Divide(double b)
+        {
+            if (b == 0)
+            {
+                Accumulator = 0;
+            }
+            else
+            {
+                Accumulator /= b;
             }
             return Accumulator;
         }
