@@ -94,6 +94,14 @@ namespace Calculator.Test.Unit
             UUT1.Clear();
             Assert.That(UUT1.Accumulator, Is.EqualTo(0));
         }
+
+        [Test]
+        public void ClearAccuAfterSubtract()
+        {
+            double res=UUT1.Substract(-5, 7);
+            UUT1.Clear();
+            Assert.AreNotEqual(res,UUT1.Accumulator);
+        }
     }
 
 }
