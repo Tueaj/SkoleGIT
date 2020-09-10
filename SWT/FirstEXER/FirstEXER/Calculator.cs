@@ -40,10 +40,19 @@ namespace Calculator
         public double Divide(double a, double b)
         {
             if (b == 0)
-                return 0;
+            {
+                Accumulator = 0;
+            }
             else
+            {
                 Accumulator = a / b;
+            }
             return Accumulator;
+        }
+
+        public void Clear()
+        {
+            Accumulator = 0;
         }
     }
 }
