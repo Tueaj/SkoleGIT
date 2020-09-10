@@ -13,88 +13,59 @@ namespace Calculator.Test.Unit
             UUT1 = new Calculator();
         }
         //ADD TEST
-        [Test]
-        public void Addnulnul()
+        [TestCase(0,0,0)]
+        [TestCase(-5, 7, 2)]
+        [TestCase(-0.5, 10, 9.5)]
+        public void AddFuncTest(double a, double b, double c)
         {
-            double res = UUT1.Add(0, 0);
-            Assert.That(res, Is.EqualTo(0));            
-        }
-        [Test]
-        public void AddM5n7()
-        {
-            double res = UUT1.Add(-5, 7);
-            Assert.That(res, Is.EqualTo(2));
-        }
-        [Test]
-        public void AddDecimal()
-        {
-            double res = UUT1.Add(-0.5, 10);
-            Assert.That(res, Is.EqualTo(9.5));
+            double res = UUT1.Add(a, b);
+            Assert.That(res, Is.EqualTo(c));            
         }
         //SUBSTRACT TEST
-        [Test]
-        public void Subnulnul()
+        [TestCase(0, 0, 0)]
+        [TestCase(-5, 7, -12)]
+        [TestCase(-0.5, 10, -10.5)]
+        public void SubFuncTest(double a, double b, double c)
         {
-            double res = UUT1.Substract(0, 0);
-            Assert.That(res, Is.EqualTo(0));
+            double res = UUT1.Substract(a, b);
+            Assert.That(res, Is.EqualTo(c));
         }
-        [Test]
-        public void SubM5n7()
-        {
-            double res = UUT1.Substract(-5, 7);
-            Assert.That(res, Is.EqualTo(-12));
-        }
-        [Test]
-        public void SubDecimal()
-        {
-            double res = UUT1.Substract(-0.5, 10);
-            Assert.That(res, Is.EqualTo(-10.5));
-        }
+
         //MULTIPLY TEST
-        [Test]
-        public void Mulnulnul()
+        [TestCase(0, 0, 0)]
+        [TestCase(-5, 7, -35)]
+        [TestCase(-0.5, 10, -5)]
+        public void MulFuncTest(double a, double b, double c)
         {
             double res = UUT1.Multiply(0, 0);
             Assert.That(res, Is.EqualTo(0));
         }
-        [Test]
-        public void MulM5n7()
-        {
-            double res = UUT1.Multiply(-5, 7);
-            Assert.That(res, Is.EqualTo(-35));
-        }
-        [Test]
-        public void MulDecimal()
-        {
-            double res = UUT1.Multiply(-0.5, 10);
-            Assert.That(res, Is.EqualTo(-5));
-        }
 
         //POWER TEST
-        [Test]
-        public void Pownulnul()
+        [TestCase(0, 0, 1)]
+        [TestCase(-5, 7, 25)]
+        [TestCase(2.5, 2, 6.25)]
+        public void PowFuncTest(double a, double b, double c)
         {
             double res = UUT1.Power(0, 0);
             Assert.That(res, Is.EqualTo(1));
         }
-        [Test]
-        public void PowM5n7()
+        //Divide test
+        [TestCase(10, 2, 5)]
+        [TestCase(10, 2.5, 4)]
+        [TestCase(-10, 4, -2.5)]
+        [TestCase(105, 0, 0)]
+        public void DivideFuncTest(double a, double b, double c)
         {
-            double res = UUT1.Power(-5, 2);
-            Assert.That(res, Is.EqualTo(25));
+            double res = UUT1.Divide(a, b);
+            Assert.That(res, Is.EqualTo(c));
         }
-        [Test]
-        public void PowDecimal()
-        {
-            double res = UUT1.Power(2.5, 2);
-            Assert.That(res, Is.EqualTo(6.25));
-        }
-
+        //Accu test
         [Test]
         public void AccuStart()
         {
             double res = UUT1.Accumulator;
-            Assert.That(res,Is.EqualTo(0.0d));
+            Assert.That(res, Is.EqualTo(0.0d));
         }
 
         public void AccuAfterAdd()
@@ -102,33 +73,6 @@ namespace Calculator.Test.Unit
             double res = UUT1.Add(-5, 7);
             Assert.That(res, Is.EqualTo(UUT1.Accumulator));
         }
-
-        [Test]
-        public void Divide_TwoNumbers_CorrectResult()
-        {
-            double res = UUT1.Divide(10, 2);
-            Assert.That(res, Is.EqualTo(5));
-        }
-
-        [Test]
-        public void Divide_TwoHalfNumbers_CorrectResult()
-        {
-            double res = UUT1.Divide(10, 2.5);
-            Assert.That(res, Is.EqualTo(4));
-        }
-
-        [Test]
-        public void Divide_NegNumbers_CorrectResult()
-        {
-            double res = UUT1.Divide(-10, 4);
-            Assert.That(res, Is.EqualTo(-2.5));
-        }
-
-        [Test]
-        public void Divide_WithZero_Error()
-        {
-            double res = UUT1.Divide(10, 0);
-            Assert.That(res, Is.EqualTo(0));
-        }
     }
+
 }
