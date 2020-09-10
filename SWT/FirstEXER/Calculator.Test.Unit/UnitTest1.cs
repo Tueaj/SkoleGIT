@@ -16,7 +16,7 @@ namespace Calculator.Test.Unit
         [TestCase(0,0,0)]
         [TestCase(-5, 7, 2)]
         [TestCase(-0.5, 10, 9.5)]
-        public void AddFuncTest(double a, double b, double c)
+        public void AddTwoNumbersAnwserCorrect(double a, double b, double c)
         {
             double res = UUT1.Add(a, b);
             Assert.That(res, Is.EqualTo(c));            
@@ -25,7 +25,7 @@ namespace Calculator.Test.Unit
         [TestCase(0, 0, 0)]
         [TestCase(-5, 7, -12)]
         [TestCase(-0.5, 10, -10.5)]
-        public void SubFuncTest(double a, double b, double c)
+        public void SubtractTwoNumbersAnwserCorrect(double a, double b, double c)
         {
             double res = UUT1.Substract(a, b);
             Assert.That(res, Is.EqualTo(c));
@@ -35,7 +35,7 @@ namespace Calculator.Test.Unit
         [TestCase(0, 0, 0)]
         [TestCase(-5, 7, -35)]
         [TestCase(-0.5, 10, -5)]
-        public void MulFuncTest(double a, double b, double c)
+        public void MultiplyTwoNumbersAnwserCorrect(double a, double b, double c)
         {
             double res = UUT1.Multiply(0, 0);
             Assert.That(res, Is.EqualTo(0));
@@ -45,7 +45,7 @@ namespace Calculator.Test.Unit
         [TestCase(0, 0, 1)]
         [TestCase(-5, 7, 25)]
         [TestCase(2.5, 2, 6.25)]
-        public void PowFuncTest(double a, double b, double c)
+        public void PowerTwoNumbersAnwserCorrect(double a, double b, double c)
         {
             double res = UUT1.Power(0, 0);
             Assert.That(res, Is.EqualTo(1));
@@ -55,20 +55,20 @@ namespace Calculator.Test.Unit
         [TestCase(10, 2.5, 4)]
         [TestCase(-10, 4, -2.5)]
         [TestCase(105, 0, 0)]
-        public void DivideFuncTest(double a, double b, double c)
+        public void DivideTwoNumbersAnwserCorrect(double a, double b, double c)
         {
             double res = UUT1.Divide(a, b);
             Assert.That(res, Is.EqualTo(c));
         }
         //Accu test
         [Test]
-        public void AccuStart()
+        public void AccuEmptyAtStartCorrect()
         {
             double res = UUT1.Accumulator;
             Assert.That(res, Is.EqualTo(0.0d));
         }
 
-        public void AccuAfterAdd()
+        public void AccuNotEmptyAfterAddCorrect()
         {
             double res = UUT1.Add(-5, 7);
             Assert.That(res, Is.EqualTo(UUT1.Accumulator));
