@@ -2,22 +2,51 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using CompressionStocking;
 
 namespace CompressionStockingApplication
 {
 
-    class StubCompressionCtrl : ICompressionCtrl
+    public class StubCompressionCtrl : ICompressionCtrl
     {
+        private readonly ILED RedLed;
+        private readonly ILED GreenLed;
+        private bool ComState { get; set; } = false;
+
+        public StubCompressionCtrl(RedLED red, GreenLED Green)
+        {
+            RedLed = red;
+            GreenLed = Green;
+        }
+
         public void Compress()
         {
-            Console.WriteLine("StubCompressionCtrl::Compress() called");
+            if (ComState == false)
+            {
+                Console.WriteLine("StubCompressionCtrl::Compress() called");
+                GreenLed.TurnOn();
+                Thread.Sleep(5000);
+                Console.WriteLine("StubCompressionCtrl::Compress() Done");
+                GreenLed.TurnOff();
+                ComState = true;
+
+            }
         }
 
         public void Decompress()
         {
-            Console.WriteLine("StubCompressionCtrl::Decompress() called");
+            if (ComState == true)
+            {
+                Console.WriteLine("StubCompressionCtrl::Decompress() called");
+                RedLed.TurnOn();
+                Thread.Sleep(2000);
+                Console.WriteLine("StubCompressionCtrl::Decompress() Done");
+                GreenLed.TurnOff();
+                ComState = false;
+            }
         }
+
     }
 
 
@@ -26,7 +55,7 @@ namespace CompressionStockingApplication
     {
         static void Main(string[] args)
         {
-            var compressionStockingstocking = new StockingCtrl(new StubCompressionCtrl());
+            var compressionStockingstocking = new StockingCtrl(new StubCompressionCtrl(new RedLED(), new GreenLED()));
             ConsoleKeyInfo consoleKeyInfo;
             
             Console.WriteLine("Compression Stocking Control User Interface");

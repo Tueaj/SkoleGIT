@@ -1,3 +1,5 @@
+using System;
+
 namespace CompressionStocking
 {
     public interface ICompressionCtrl
@@ -5,4 +7,5 @@ namespace CompressionStocking
         void Compress();
         void Decompress();
     }
+
 }

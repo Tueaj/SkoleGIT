@@ -1,0 +1,9 @@
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\Lektion2_2\CompressionStocking_Handout\Handout\CompressionStockingApplication\bin\Debug\CompressionStockingApplication.exe
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\Lektion2_2\CompressionStocking_Handout\Handout\CompressionStockingApplication\bin\Debug\CompressionStockingApplication.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\Lektion2_2\CompressionStocking_Handout\Handout\CompressionStockingApplication\bin\Debug\CompressionStocking.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\Lektion2_2\CompressionStocking_Handout\Handout\CompressionStockingApplication\bin\Debug\CompressionStocking.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\Lektion2_2\CompressionStocking_Handout\Handout\CompressionStockingApplication\obj\x86\Debug\CompressionStockingApplication.csprojAssemblyReference.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\Lektion2_2\CompressionStocking_Handout\Handout\CompressionStockingApplication\obj\x86\Debug\CompressionStockingApplication.csproj.CoreCompileInputs.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\Lektion2_2\CompressionStocking_Handout\Handout\CompressionStockingApplication\obj\x86\Debug\CompressionStockingApplication.csproj.CopyComplete
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\Lektion2_2\CompressionStocking_Handout\Handout\CompressionStockingApplication\obj\x86\Debug\CompressionStockingApplication.exe
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\Lektion2_2\CompressionStocking_Handout\Handout\CompressionStockingApplication\obj\x86\Debug\CompressionStockingApplication.pdb
