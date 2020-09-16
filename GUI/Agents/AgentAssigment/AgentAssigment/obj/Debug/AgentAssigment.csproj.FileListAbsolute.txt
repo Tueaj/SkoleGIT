@@ -1,0 +1,15 @@
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\AgentAssigment.exe.config
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\AgentAssigment.exe
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\AgentAssigment.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.csprojAssemblyReference.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\MainWindow.g.cs
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\App.g.cs
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment_MarkupCompile.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment_MarkupCompile.lref
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\MainWindow.baml
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.g.resources
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.Properties.Resources.resources
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.csproj.GenerateResource.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.csproj.CoreCompileInputs.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.exe
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.pdb

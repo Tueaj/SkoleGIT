@@ -1,0 +1,35 @@
+﻿<Window x:Class="AgentAssigment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AgentAssigment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"> </ColumnDefinition>
+            <ColumnDefinition Width="Auto"> </ColumnDefinition>
+            <ColumnDefinition Width="Auto"> </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="Id"></Label>
+        <Label Grid.Row="1" Grid.Column="0" Content="CodeName"></Label>
+        <Label Grid.Row="2" Grid.Column="0" Content="Speciality"></Label>
+        <Label Grid.Row="3" Grid.Column="0" Content="Assigment"></Label>
+
+        <TextBox Grid.Row="0" Grid.Column="1" Name="TextId" MinWidth="100"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="TextCodeName" MinWidth="100"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" Name="TextSpeciality" MinWidth="100"></TextBox>
+        <TextBox Grid.Row="3" Grid.Column="1" Name="TextAssigment" MinWidth="100"></TextBox>
+        
+        <ListBox Grid.Row="0" Grid.Column="2" Grid.RowSpan="4" Name="InfoList" MinWidth="200" 
+                 IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding}" DisplayMemberPath="CodeName"></ListBox>
+
+    </Grid>
+</Window>
