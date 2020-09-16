@@ -13,3 +13,19 @@ C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAss
 C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.csproj.CoreCompileInputs.cache
 C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.exe
 C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.pdb
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\AgentAssigment.exe.config
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\AgentAssigment.exe
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\AgentAssigment.pdb
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.csprojAssemblyReference.cache
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\MainWindow.g.cs
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\App.g.cs
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment_MarkupCompile.cache
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment_MarkupCompile.lref
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\MainWindow.baml
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.g.resources
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.Properties.Resources.resources
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.csproj.GenerateResource.cache
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.csproj.CoreCompileInputs.cache
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.exe
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.pdb
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\GeneratedInternalTypeHelper.g.cs
