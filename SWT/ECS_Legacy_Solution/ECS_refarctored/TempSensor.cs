@@ -1,14 +1,14 @@
 ﻿using System;
+using ECS_refarctored;
 
 namespace ECS.Legacy
 {
-    internal class TempSensor
+    internal class TempSensor : ITempSensor
     {
-        private Random gen = new Random();
-
         public int GetTemp()
         {
-            return gen.Next(-5, 45);
+            //Mangler implementering af hardware
+            return 0;
         }
 
         public bool RunSelfTest()
