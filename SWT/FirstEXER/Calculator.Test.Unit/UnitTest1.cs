@@ -96,7 +96,6 @@ namespace Calculator.Test.Unit
         [TestCase(10, 2, 5)]
         [TestCase(10, 2.5, 4)]
         [TestCase(-10, 4, -2.5)]
-        [TestCase(105, 0, 0)]
         public void DivideTwoNumbersAnwserCorrect(double a, double b, double c)
         {
             double res = UUT1.Divide(a, b);
