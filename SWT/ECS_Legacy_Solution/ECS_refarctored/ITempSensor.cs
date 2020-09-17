@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ECS_refarctored
 {
-    interface ITempSensor
+    public interface ITempSensor
     {
         int GetTemp();
         bool RunSelfTest();
