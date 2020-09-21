@@ -25,15 +25,31 @@ namespace AgentAssigment
         public MainWindow()
         {
             InitializeComponent();
-            ObservableCollection<Agent> listData;
-            listData = new ObservableCollection<Agent>();
-            Agent test1 = new Agent("xxx","Test","none","none");
-            Agent test2 = new Agent("xxx", "Test2", "none", "none");
-            listData.Add(test1);
-            listData.Add(test2);
-            InfoList.ItemsSource = listData;
+        }
 
+        private void AddNewClicked(object sender, RoutedEventArgs e)
+        {
+            var vm = DataContext as MainWindowViewModel;
+            vm.AddNewAgent();
+            InfoList.SelectedIndex = InfoList.Items.Count - 1;
 
+        }
+
+        private void NextClicked(object sender, RoutedEventArgs e)
+        {
+            if (InfoList.SelectedIndex < InfoList.Items.Count - 1)
+            {
+                InfoList.SelectedIndex++;
+            }
+
+        }
+
+        private void BackClicked(object sender, RoutedEventArgs e)
+        {
+            if (InfoList.SelectedIndex > 0)
+            {
+                InfoList.SelectedIndex--;
+            }
         }
     }
 }

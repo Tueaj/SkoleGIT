@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Dynamic;
 using System.Text;
+using FirstEXER;
 
 namespace Calculator
 {
@@ -63,7 +64,7 @@ namespace Calculator
         {
             if (b == 0)
             {
-                Accumulator = 0;
+                throw new InvalidDivideExeption();
             }
             else
             {
@@ -76,7 +77,7 @@ namespace Calculator
         {
             if (b == 0)
             {
-                Accumulator = 0;
+                throw new InvalidDivideExeption();
             }
             else
             {

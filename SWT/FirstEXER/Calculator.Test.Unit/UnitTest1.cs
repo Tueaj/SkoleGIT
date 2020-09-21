@@ -1,5 +1,6 @@
 using System;
 using NUnit.Framework;
+using FirstEXER;
 
 namespace Calculator.Test.Unit
 {
@@ -95,7 +96,6 @@ namespace Calculator.Test.Unit
         [TestCase(10, 2, 5)]
         [TestCase(10, 2.5, 4)]
         [TestCase(-10, 4, -2.5)]
-        [TestCase(105, 0, 0)]
         public void DivideTwoNumbersAnwserCorrect(double a, double b, double c)
         {
             double res = UUT1.Divide(a, b);
@@ -105,12 +105,26 @@ namespace Calculator.Test.Unit
         [TestCase(10, 0.5)]
         [TestCase(5,  1)]
         [TestCase(-10,  -0.5)]
-        [TestCase(0,  0)]
         public void DivideAccumulatorWithOneNumberAnwserCorrect(double b, double c)
         {
             UUT1.Accumulator = 5;
             double res = UUT1.Divide(b);
             Assert.That(res, Is.EqualTo(c));
+        }
+
+        //DIVIDE WITH 0 EXCEPTION
+        [TestCase(10,0)]
+        public void DivideANumberWith0ThrowExceptionCorrect(double a, double b)
+        {
+            double res;
+            Assert.Throws<InvalidDivideExeption>(() => res = UUT1.Divide(a, b));
+        }
+        [TestCase( 0)]
+        public void DivideAAccumulatorWith0ThrowExceptionCorrect( double b)
+        {
+            double res;
+            UUT1.Accumulator = 7;
+            Assert.Throws<InvalidDivideExeption>(() => res = UUT1.Divide(b));
         }
 
         //Accu test
