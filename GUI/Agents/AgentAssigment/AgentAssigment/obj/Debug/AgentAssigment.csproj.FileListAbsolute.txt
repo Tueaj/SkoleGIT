@@ -29,3 +29,15 @@ E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAss
 E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.exe
 E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.pdb
 E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.Wpf.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\System.ValueTuple.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.xml
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.Wpf.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.Wpf.xml
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\System.ValueTuple.xml
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.csproj.CopyComplete
