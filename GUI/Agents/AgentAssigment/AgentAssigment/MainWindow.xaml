@@ -10,45 +10,55 @@
     <Window.DataContext>
         <local:MainWindowViewModel />
     </Window.DataContext>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+        <MenuItem Header="File">
+                <MenuItem Header="New" Command="{Binding NewFileCommand}"></MenuItem>
+                <MenuItem Header="Open" Command="{Binding OpenFileCommand}"></MenuItem>
+                <MenuItem Header="Save" Command="{Binding SaveCommand}"></MenuItem>
+                <MenuItem Header="Save As" Command="{Binding SaveFileAsCommand}"></MenuItem>
+                <MenuItem Header="Exit" Command="{Binding CloseAppCommand}"></MenuItem>
+        </MenuItem>
+        <MenuItem Header="Agents">
+            <MenuItem Header="Previous" Command="{Binding PreviousAgentCommand}"></MenuItem>
+            <MenuItem Header="Next" Command="{Binding NextAgentCommand}"></MenuItem>
+            <MenuItem Header="Add New" Command="{Binding AddAgentCommand}"></MenuItem>
+            <MenuItem Header="Delete" Command="{Binding DeleteAgentCommand}"></MenuItem>
+            </MenuItem>
+    </Menu>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"> </ColumnDefinition>
             <ColumnDefinition Width="Auto"> </ColumnDefinition>
-            <ColumnDefinition Width="Auto"> </ColumnDefinition>
+            <ColumnDefinition Width="*"> </ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Label Grid.Row="0" Grid.Column="0" Content="Id"></Label>
-        <Label Grid.Row="1" Grid.Column="0" Content="CodeName"></Label>
-        <Label Grid.Row="2" Grid.Column="0" Content="Speciality"></Label>
-        <Label Grid.Row="3" Grid.Column="0" Content="Assigment"></Label>
+        <ToolBar Grid.Row="0" Grid.ColumnSpan="3" MinHeight="20">
+            <Button MinWidth="10" x:Name="Previous" Content="&lt;" FontWeight="Bold" Command="{Binding PreviousAgentCommand}"></Button>
+            <Button MinWidth="10" x:Name="Next" Content="&gt;" FontWeight="Bold" Command="{Binding NextAgentCommand}"></Button>
+                <Button MinWidth="10" x:Name="Add_New" Content="+" FontWeight="Bold" Command="{Binding AddAgentCommand}"></Button>
+            <Button MinWidth="10" x:Name="Delete" Content="-" FontWeight="Bold" Command="{Binding DeleteAgentCommand}"></Button>
+        </ToolBar>
+        <Label Grid.Row="1" Grid.Column="0" Content="Id"></Label>
+        <Label Grid.Row="2" Grid.Column="0" Content="CodeName"></Label>
+        <Label Grid.Row="3" Grid.Column="0" Content="Speciality"></Label>
+        <Label Grid.Row="4" Grid.Column="0" Content="Assigment"></Label>
 
-        <TextBox Grid.Row="0" Grid.Column="1" Name="TextId" MinWidth="100" Text="{Binding Path=CurrentAgent.ID}"></TextBox>
-        <TextBox Grid.Row="1" Grid.Column="1" Name="TextCodeName" MinWidth="100" Text="{Binding Path=CurrentAgent.CodeName}"></TextBox>
-        <TextBox Grid.Row="2" Grid.Column="1" Name="TextSpeciality" MinWidth="100" Text="{Binding Path=CurrentAgent.Speciality}"></TextBox>
-        <TextBox Grid.Row="3" Grid.Column="1" Name="TextAssigment" MinWidth="100" Text="{Binding Path=CurrentAgent.Assignment}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="TextId" MinWidth="100" Text="{Binding Path=CurrentAgent.ID}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" Name="TextCodeName" MinWidth="100" Text="{Binding Path=CurrentAgent.CodeName}"></TextBox>
+        <TextBox Grid.Row="3" Grid.Column="1" Name="TextSpeciality" MinWidth="100" Text="{Binding Path=CurrentAgent.Speciality}"></TextBox>
+        <TextBox Grid.Row="4" Grid.Column="1" Name="TextAssigment" MinWidth="100" Text="{Binding Path=CurrentAgent.Assignment}"></TextBox>
         
-        <ListBox Grid.Row="0" Grid.Column="2" Grid.RowSpan="5" x:Name="InfoList" MinWidth="200" Margin="10" 
-                 IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding Path=ListData}" SelectedItem="{Binding Path=CurrentAgent}" DisplayMemberPath="CodeName"></ListBox>
-        
-        <Grid Grid.Row="4" Grid.Column="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"></ColumnDefinition>
-                <ColumnDefinition Width="Auto"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-            </Grid.RowDefinitions>
-            <Button Grid.Column="0" Grid.Row="0" MinWidth="50" MinHeight="15" Margin="2.5" x:Name="ButBackward" Content="Back" Click="BackClicked"></Button>
-            <Button Grid.Column="1" Grid.Row="0" MinWidth="50" MinHeight="15" Margin="2.5" x:Name="ButForward" Content="Next" Click="NextClicked"></Button>
-            <Button Grid.Column="0" Grid.Row="1" MinWidth="50" MinHeight="15" Margin="2.5" x:Name="ButAdd" Content="Add new" Click="AddNewClicked"></Button>
-        </Grid>
-
+        <ListBox Grid.Row="1" Grid.Column="2" Grid.RowSpan="5" x:Name="InfoList" MinWidth="200" Margin="10" 
+                 IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding Path=ListData}" SelectedItem="{Binding Path=CurrentAgent}" SelectedIndex="{Binding CurrentIndex}" DisplayMemberPath="CodeName"></ListBox>
     </Grid>
+
+    </DockPanel>
 </Window>

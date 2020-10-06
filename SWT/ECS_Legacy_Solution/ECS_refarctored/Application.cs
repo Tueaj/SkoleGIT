@@ -1,10 +1,10 @@
-﻿namespace ECS.Legacy
+﻿namespace ECS.refarctored
 {
     public class Application
     {
         public static void Main(string[] args)
         {
-            var ecs = new ECS(28);
+            var ecs = new EECS(28);
 
             ecs.Regulate();
 

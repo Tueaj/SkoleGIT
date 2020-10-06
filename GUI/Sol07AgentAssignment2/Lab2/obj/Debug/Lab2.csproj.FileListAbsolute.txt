@@ -1,0 +1,74 @@
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\bin\Debug\CommonServiceLocator.dll
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.dll
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.Wpf.dll
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\bin\Debug\System.Windows.Interactivity.dll
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.pdb
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.xml
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.Wpf.pdb
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.Wpf.xml
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.csprojAssemblyReference.cache
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\MainWindow.g.cs
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\App.g.cs
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\MainWindow.baml
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.csproj.CopyComplete
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\bin\Debug\Lab2.exe.config
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\bin\Debug\Lab2.exe
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\bin\Debug\Lab2.pdb
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2_MarkupCompile.cache
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2_MarkupCompile.lref
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.g.resources
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.exe
+C:\Courses\I4GUI\Lektioner\07 Commands and Data binding adv\Lab\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.pdb
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\bin\Debug\Lab2.exe.config
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\bin\Debug\Lab2.exe
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\bin\Debug\Lab2.pdb
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.dll
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.Wpf.dll
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.pdb
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.xml
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.Wpf.pdb
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.Wpf.xml
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\MainWindow.g.cs
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\App.g.cs
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2_MarkupCompile.cache
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2_MarkupCompile.lref
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\MainWindow.baml
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.g.resources
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.csproj.CopyComplete
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.exe
+C:\Users\Tue\Downloads\Sol07AgentAssignment2\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\bin\Debug\Lab2.exe.config
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\bin\Debug\Lab2.exe
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\bin\Debug\Lab2.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.Wpf.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.xml
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.Wpf.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\bin\Debug\Prism.Wpf.xml
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.csprojAssemblyReference.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\MainWindow.g.cs
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\App.g.cs
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2_MarkupCompile.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2_MarkupCompile.lref
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\MainWindow.baml
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.g.resources
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.csproj.CopyComplete
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.exe
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Sol07AgentAssignment2\Lab2\obj\Debug\Lab2.pdb

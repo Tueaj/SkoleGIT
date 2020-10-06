@@ -27,7 +27,7 @@ namespace AgentAssigment
             InitializeComponent();
         }
 
-        private void AddNewClicked(object sender, RoutedEventArgs e)
+        /*private void AddNewClicked(object sender, RoutedEventArgs e)
         {
             var vm = DataContext as MainWindowViewModel;
             vm.AddNewAgent();
@@ -50,6 +50,6 @@ namespace AgentAssigment
             {
                 InfoList.SelectedIndex--;
             }
-        }
+        }*/
     }
 }

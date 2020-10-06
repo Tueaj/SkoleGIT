@@ -1,7 +1,7 @@
 ﻿using System;
 using ECS_refarctored;
 
-namespace ECS.Legacy
+namespace ECS.refarctored
 {
     internal class TempSensor : ITempSensor
     {

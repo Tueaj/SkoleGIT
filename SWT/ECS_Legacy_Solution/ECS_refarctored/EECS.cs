@@ -1,16 +1,18 @@
-﻿namespace ECS.Legacy
+﻿using ECS_refarctored;
+
+namespace ECS.refarctored
 {
-    public class ECS
+    public class EECS
     {
         private int _threshold;
-        private readonly TempSensor _tempSensor;
-        private readonly Heater _heater;
+        private readonly ITempSensor _tempSensor;
+        private readonly IHeater _heater;
 
-        public ECS(int thr)
+        public EECS(int thr, ITempSensor TS, IHeater H)
         {
             SetThreshold(thr);
-            _tempSensor = new TempSensor();
-            _heater = new Heater();
+            _tempSensor = TS;
+            _heater = H;
         }
 
         public void Regulate()
