@@ -41,3 +41,15 @@ C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAss
 C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.Wpf.xml
 C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\System.ValueTuple.xml
 C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.csproj.CopyComplete
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\CommonServiceLocator.dll
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.dll
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.Wpf.dll
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\System.ValueTuple.dll
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\System.Windows.Interactivity.dll
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.pdb
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.xml
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.Wpf.pdb
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\Prism.Wpf.xml
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\bin\Debug\System.ValueTuple.xml
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\AgentAssigment.csproj.CopyComplete
+E:\GitRepos\SkoleGIT\GUI\Agents\AgentAssigment\AgentAssigment\obj\Debug\App.baml

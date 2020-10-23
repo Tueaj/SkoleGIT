@@ -4,27 +4,43 @@ using System.Text;
 
 namespace ObserverPStocks
 {
-    public class Stock :ISubject<int>
+    public class Stock :ISubject
     {
-        private List<IObserver<int>> observers = new List<IObserver<int>>();
+        private readonly List<IObserver> _observers = new List<IObserver>();
+
+        public Stock(string tag, int price)
+        {
+            Tag = new string(tag);
+            if (price >= 0)
+                Price = price;
+        }
 
         public int Price { get; set; }
 
-        public void Attach(IObserver<int> obs)
+        public readonly string Tag;
+
+        public void SetPrice(int price)
         {
-            observers.Add(obs);
+            if (price < 0) throw new ArgumentOutOfRangeException(nameof(price));
+            Price = price;
+            Notify();
         }
 
-        public void Detach(IObserver<int> obs)
+        public void Attach(IObserver obs)
         {
-            observers.Remove(obs);
+            _observers.Add(obs);
+        }
+
+        public void Detach(IObserver obs)
+        {
+            _observers.Remove(obs);
         }
 
         public void Notify()
         {
-            foreach (var observer in observers)
+            foreach (var observer in _observers)
             {
-                observer.Update(Price);
+                observer.Update();
             }
         }
 

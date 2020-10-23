@@ -10,6 +10,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Threading;
 using System.Xml.Serialization;
 using AgentAssignment;
 using Microsoft.Win32;
@@ -22,6 +24,7 @@ namespace AgentAssigment
     class MainWindowViewModel : BindableBase
     {
 
+        DispatcherTimer timer = new DispatcherTimer();
         ObservableCollection<Agent> listData;
         private string filename = "";
         public MainWindowViewModel()
@@ -33,7 +36,18 @@ namespace AgentAssigment
             listData.Add(test2);
             CurrentAgent = listData[0];
 
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += new EventHandler(Timer_Tick);
+            timer.Start();
+
         }
+
+        void Timer_Tick(object sender, EventArgs e)
+        {
+            clock.Update();
+        }
+        Clock clock = new Clock();
+        public Clock Clock { get => clock; set => clock = value; }
 
         Agent currentAgent = null;
 
@@ -66,6 +80,37 @@ namespace AgentAssigment
                 SetProperty(ref currentIndex, value);
             }
         }
+
+        private ICommand changeColorCommand;
+
+        public ICommand ChangeColorCommand
+        {
+            get
+            {
+                return changeColorCommand ?? (changeColorCommand =
+                    new DelegateCommand<string>(ChangeColorCommandHandler));
+            }
+        }
+        private void ChangeColorCommandHandler(string colorstr)
+        {
+            SolidColorBrush newBrush = SystemColors.WindowBrush; // Default color
+            
+            try
+            {
+                if (colorstr != null)
+                {
+                    if (colorstr != "Default")
+                        newBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString(colorstr));
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Unknown color name, default color is used", "Program error!");
+            }
+
+            Application.Current.Resources["myBrush"] = newBrush;
+        }
+
 
         private ICommand nextAgentCommand;
 
@@ -176,6 +221,7 @@ namespace AgentAssigment
                 {
                     SaveFileDialog saveFileDialog = new SaveFileDialog();
                     saveFileDialog.ShowDialog();
+                    saveFileDialog.FileName = "";
                     if (saveFileDialog.FileName != "")
                     {
                         // Create an instance of the XmlSerializer class and specify the type of object to serialize.
@@ -214,7 +260,8 @@ namespace AgentAssigment
         {
             return (filename != "") && (listData.Count > 0);
         }
-        /*
+
+        
         ICommand _NewFileCommand;
         public ICommand NewFileCommand
         {
@@ -272,6 +319,6 @@ namespace AgentAssigment
                 //foreach (var agent in tempAgents)
                 //    Add(agent);
             }
-        }*/
+        }
     }
 }

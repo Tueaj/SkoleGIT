@@ -4,10 +4,10 @@ using System.Text;
 
 namespace ObserverPStocks
 {
-    public interface ISubject<T>
+    public interface ISubject
     {
-        void Attach(IObserver<T> obs);
-        void Detach(IObserver<T> obs);
+        void Attach(IObserver obs);
+        void Detach(IObserver obs);
         void Notify();
 
     }

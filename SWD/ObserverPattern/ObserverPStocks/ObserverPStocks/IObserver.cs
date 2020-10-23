@@ -1,7 +1,9 @@
 ﻿namespace ObserverPStocks
 {
-    public interface IObserver<T>
+    public interface IObserver
     {
-        void Update(T subject);
+        void Update();
+
+        void AddSubject(ISubject subject);
     }
 }

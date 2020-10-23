@@ -1,0 +1,13 @@
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\bin\Debug\netcoreapp3.1\ObserverPStocks.exe
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\bin\Debug\netcoreapp3.1\ObserverPStocks.deps.json
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\bin\Debug\netcoreapp3.1\ObserverPStocks.runtimeconfig.json
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\bin\Debug\netcoreapp3.1\ObserverPStocks.runtimeconfig.dev.json
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\bin\Debug\netcoreapp3.1\ObserverPStocks.dll
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\bin\Debug\netcoreapp3.1\ObserverPStocks.pdb
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\obj\Debug\netcoreapp3.1\ObserverPStocks.csprojAssemblyReference.cache
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\obj\Debug\netcoreapp3.1\ObserverPStocks.csproj.CoreCompileInputs.cache
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\obj\Debug\netcoreapp3.1\ObserverPStocks.AssemblyInfoInputs.cache
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\obj\Debug\netcoreapp3.1\ObserverPStocks.AssemblyInfo.cs
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\obj\Debug\netcoreapp3.1\ObserverPStocks.dll
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\obj\Debug\netcoreapp3.1\ObserverPStocks.pdb
+E:\GitRepos\SkoleGIT\SWD\ObserverPattern\ObserverPStocks\ObserverPStocks\obj\Debug\netcoreapp3.1\ObserverPStocks.genruntimeconfig.cache

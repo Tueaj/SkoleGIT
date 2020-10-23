@@ -10,7 +10,7 @@
     <Window.DataContext>
         <local:MainWindowViewModel />
     </Window.DataContext>
-    <DockPanel>
+    <DockPanel Background="{DynamicResource myBrush}">
         <Menu DockPanel.Dock="Top">
         <MenuItem Header="File">
                 <MenuItem Header="New" Command="{Binding NewFileCommand}"></MenuItem>
@@ -24,9 +24,20 @@
             <MenuItem Header="Next" Command="{Binding NextAgentCommand}"></MenuItem>
             <MenuItem Header="Add New" Command="{Binding AddAgentCommand}"></MenuItem>
             <MenuItem Header="Delete" Command="{Binding DeleteAgentCommand}"></MenuItem>
+        </MenuItem>
+
+        <MenuItem Header="Color">
+            <MenuItem Header="LightBlue" Command="{Binding ChangeColorCommand}"
+                      CommandParameter="LightBlue"></MenuItem>
+                <MenuItem Header="LightCoral" Command="{Binding ChangeColorCommand}"
+                          CommandParameter="LightCoral"></MenuItem>
+                <MenuItem Header="LightGreen" Command="{Binding ChangeColorCommand}"
+                          CommandParameter="LightGreen"></MenuItem>
+                <MenuItem Header="LightGray" Command="{Binding ChangeColorCommand}"
+                          CommandParameter="LightGray"></MenuItem>
             </MenuItem>
     </Menu>
-    <Grid>
+    <Grid DockPanel.Dock="Top">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"> </ColumnDefinition>
             <ColumnDefinition Width="Auto"> </ColumnDefinition>
@@ -41,24 +52,35 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <ToolBar Grid.Row="0" Grid.ColumnSpan="3" MinHeight="20">
-            <Button MinWidth="10" x:Name="Previous" Content="&lt;" FontWeight="Bold" Command="{Binding PreviousAgentCommand}"></Button>
-            <Button MinWidth="10" x:Name="Next" Content="&gt;" FontWeight="Bold" Command="{Binding NextAgentCommand}"></Button>
-                <Button MinWidth="10" x:Name="Add_New" Content="+" FontWeight="Bold" Command="{Binding AddAgentCommand}"></Button>
-            <Button MinWidth="10" x:Name="Delete" Content="-" FontWeight="Bold" Command="{Binding DeleteAgentCommand}"></Button>
+                <Button MinWidth="10" x:Name="Previous" Content="{StaticResource prevAgentImage}" FontWeight="Bold" Command="{Binding PreviousAgentCommand}" Style="{StaticResource ResourceKey={x:Type Button}}"></Button>
+                <Button MinWidth="10" x:Name="Next" Content="{StaticResource nextAgentImage}" FontWeight="Bold" Command="{Binding NextAgentCommand}" Style="{StaticResource ResourceKey={x:Type Button}}"></Button>
+                <Button MinWidth="10" x:Name="Add_New" Content="{StaticResource addAgentImage}" FontWeight="Bold" Command="{Binding AddAgentCommand}" Style="{StaticResource ResourceKey={x:Type Button}}"></Button>
+                <Button MinWidth="10" x:Name="Delete" Content="{StaticResource delAgentImage}" FontWeight="Bold" Command="{Binding DeleteAgentCommand}" Style="{StaticResource ResourceKey={x:Type Button}}"></Button>
         </ToolBar>
         <Label Grid.Row="1" Grid.Column="0" Content="Id"></Label>
         <Label Grid.Row="2" Grid.Column="0" Content="CodeName"></Label>
         <Label Grid.Row="3" Grid.Column="0" Content="Speciality"></Label>
         <Label Grid.Row="4" Grid.Column="0" Content="Assigment"></Label>
 
-        <TextBox Grid.Row="1" Grid.Column="1" Name="TextId" MinWidth="100" Text="{Binding Path=CurrentAgent.ID}"></TextBox>
-        <TextBox Grid.Row="2" Grid.Column="1" Name="TextCodeName" MinWidth="100" Text="{Binding Path=CurrentAgent.CodeName}"></TextBox>
-        <TextBox Grid.Row="3" Grid.Column="1" Name="TextSpeciality" MinWidth="100" Text="{Binding Path=CurrentAgent.Speciality}"></TextBox>
-        <TextBox Grid.Row="4" Grid.Column="1" Name="TextAssigment" MinWidth="100" Text="{Binding Path=CurrentAgent.Assignment}"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="1" Name="TextId" MinWidth="100" Text="{Binding Path=CurrentAgent.ID}" Style="{StaticResource ResourceKey={x:Type TextBox}}"></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="1" Name="TextCodeName" MinWidth="100" Text="{Binding Path=CurrentAgent.CodeName}" Style="{StaticResource ResourceKey={x:Type TextBox}}"></TextBox>
+            <TextBox Grid.Row="3" Grid.Column="1" Name="TextSpeciality" MinWidth="100" Text="{Binding Path=CurrentAgent.Speciality}" Style="{StaticResource ResourceKey={x:Type TextBox}}"></TextBox>
+            <TextBox Grid.Row="4" Grid.Column="1" Name="TextAssigment" MinWidth="100" Text="{Binding Path=CurrentAgent.Assignment}" Style="{StaticResource ResourceKey={x:Type TextBox}}"></TextBox>
         
         <ListBox Grid.Row="1" Grid.Column="2" Grid.RowSpan="5" x:Name="InfoList" MinWidth="200" Margin="10" 
                  IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding Path=ListData}" SelectedItem="{Binding Path=CurrentAgent}" SelectedIndex="{Binding CurrentIndex}" DisplayMemberPath="CodeName"></ListBox>
-    </Grid>
+        
+        </Grid>
+        <StatusBar DockPanel.Dock="Bottom" VerticalAlignment="Bottom">
+            <StatusBarItem Content="Agents : "></StatusBarItem>
+            <StatusBarItem Content="{Binding Path=ListData.Count}"></StatusBarItem>
+            <StatusBarItem Name="sbiDateTime" HorizontalAlignment="Right">
+                <StackPanel Orientation="Horizontal" Name="spClock">
+                    <TextBlock Margin="4,0" Name="tblkDate" Text="{Binding Path=Clock.Date}" />
+                    <TextBlock Margin="4,0" Name="tblkTime" Text="{Binding Path=Clock.Time}" />
+                </StackPanel>
+            </StatusBarItem>
+        </StatusBar>
 
     </DockPanel>
 </Window>

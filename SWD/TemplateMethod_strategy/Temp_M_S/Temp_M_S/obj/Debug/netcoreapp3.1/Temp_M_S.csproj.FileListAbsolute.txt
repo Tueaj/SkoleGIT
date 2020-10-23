@@ -1,0 +1,13 @@
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.exe
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.deps.json
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.runtimeconfig.json
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.runtimeconfig.dev.json
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.dll
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.pdb
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.csprojAssemblyReference.cache
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.csproj.CoreCompileInputs.cache
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.AssemblyInfoInputs.cache
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.AssemblyInfo.cs
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.dll
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.pdb
+E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.genruntimeconfig.cache

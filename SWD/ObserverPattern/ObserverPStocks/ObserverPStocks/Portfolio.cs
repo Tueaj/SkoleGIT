@@ -2,13 +2,21 @@
 
 namespace ObserverPStocks
 {
-    public class Portfolio : IObserver<int>
+    public class Portfolio : IObserver
     {
-        public List<Stock> Stocks { get; set; }
+        public readonly List<Stock> Stocks = new List<Stock>();
 
-        public void Update(int price)
+        private readonly PortfolioDisplay _portfolioDisplay = new PortfolioDisplay();
+
+        public void Update()
         {
-            
+            _portfolioDisplay.PrintPortfolio(this.Stocks);
+        }
+
+        public void AddSubject(ISubject subject)
+        {
+            Stocks.Add((Stock)subject);
+            subject.Attach(this);
         }
     }
 }
