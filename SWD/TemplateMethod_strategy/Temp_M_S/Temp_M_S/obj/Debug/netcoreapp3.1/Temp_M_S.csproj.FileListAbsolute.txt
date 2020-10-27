@@ -11,3 +11,16 @@ E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\net
 E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.dll
 E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.pdb
 E:\GitRepos\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.genruntimeconfig.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.csprojAssemblyReference.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.AssemblyInfoInputs.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.AssemblyInfo.cs
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.csproj.CoreCompileInputs.cache
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.exe
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.deps.json
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.runtimeconfig.json
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.runtimeconfig.dev.json
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.dll
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\bin\Debug\netcoreapp3.1\Temp_M_S.pdb
+C:\Users\Tue\Desktop\ny git\SkoleGit\SkoleGIT\SWD\TemplateMethod_strategy\Temp_M_S\Temp_M_S\obj\Debug\netcoreapp3.1\Temp_M_S.genruntimeconfig.cache
